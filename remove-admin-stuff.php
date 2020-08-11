@@ -23,7 +23,8 @@ function remove_from_admin_bar($wp_admin_bar) {
         $wp_admin_bar->remove_node('comments');
         $wp_admin_bar->remove_node('new-content');
         $wp_admin_bar->remove_node('wp-logo');
-        //$wp_admin_bar->remove_node('site-name');
+        $wp_admin_bar->remove_node('edit');
+        $wp_admin_bar->remove_node('site-name');
         //$wp_admin_bar->remove_node('my-account');
         $wp_admin_bar->remove_node('search');
         $wp_admin_bar->remove_node('customize');
