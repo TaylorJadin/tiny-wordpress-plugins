@@ -1,3 +1,4 @@
+<?php
 // Restrict registration to snc.edu
 function is_valid_email_domain($login, $email, $errors ){
  $valid_email_domains = array("snc.edu");// allowed domains
@@ -17,3 +18,4 @@ $errors->add('domain_whitelist_error',__( '<strong>ERROR</strong>: Registration 
  }
 }
 add_action('register_post', 'is_valid_email_domain',10,3 );
+?>
