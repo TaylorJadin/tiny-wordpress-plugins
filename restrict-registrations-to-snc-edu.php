@@ -1,4 +1,13 @@
 <?php
+/**
+* Plugin Name: Restrict registrations to snc.edu
+* Plugin URI: https://github.com/TaylorJadin/allow-registration-from-snc-edu-only
+* Description: This plugin requires an @snc.edu email for registration to the site
+* Version: 1.0
+* Author: Taylor Jadin
+* Author URI: https://jadin.me/
+**/
+
 // Restrict registration to snc.edu
 function is_valid_email_domain($login, $email, $errors ){
  $valid_email_domains = array("snc.edu");// allowed domains
