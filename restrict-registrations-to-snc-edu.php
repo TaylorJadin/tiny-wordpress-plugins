@@ -2,7 +2,7 @@
 /**
 * Plugin Name: Restrict registrations to snc.edu
 * Plugin URI: https://github.com/TaylorJadin/allow-registration-from-snc-edu-only
-* Description: This plugin requires an @snc.edu email for registration to the site
+* Description: This plugin makes it so you need an @snc.edu email to register an account on this site.
 * Version: 1.0
 * Author: Taylor Jadin
 * Author URI: https://jadin.me/
@@ -23,7 +23,7 @@ function is_valid_email_domain($login, $email, $errors ){
  // Return error message for invalid domains
  if( $valid === false ){
 
-$errors->add('domain_whitelist_error',__( '<strong>ERROR</strong>: Registration is only allowed from @snc.edu email accounts. If you think you are seeing this in error, please contact the system administrator.' ));
+$errors->add('domain_whitelist_error',__( '<strong>ERROR</strong>: Registration is only allowed from @snc.edu email accounts.' ));
  }
 }
 add_action('register_post', 'is_valid_email_domain',10,3 );
