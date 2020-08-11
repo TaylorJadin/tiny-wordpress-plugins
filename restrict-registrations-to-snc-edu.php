@@ -1,7 +1,7 @@
 <?php
 /**
 * Plugin Name: Restrict registrations to snc.edu
-* Plugin URI: https://github.com/TaylorJadin/allow-registration-from-snc-edu-only
+* Plugin URI: https://github.com/TaylorJadin/tiny-wordpress-plugins
 * Description: This plugin makes it so you need an @snc.edu email to register an account on this site.
 * Version: 1.0
 * Author: Taylor Jadin
