@@ -22,7 +22,7 @@ function remove_from_admin_bar($wp_admin_bar) {
         //$wp_admin_bar->remove_node('updates');
         //$wp_admin_bar->remove_node('comments');
         //$wp_admin_bar->remove_node('new-content');
-        //$wp_admin_bar->remove_node('wp-logo');
+        $wp_admin_bar->remove_node('wp-logo');
         $wp_admin_bar->remove_node('site-name');
         //$wp_admin_bar->remove_node('my-account');
         $wp_admin_bar->remove_node('search');
@@ -33,7 +33,7 @@ function remove_from_admin_bar($wp_admin_bar) {
      * Items placed outside the if statement will remove it from both the frontend
      * and backend of the site
     */
-    $wp_admin_bar->remove_node('wp-logo');
+    //$wp_admin_bar->remove_node('wp-logo');
 }
 add_action('admin_bar_menu', 'remove_from_admin_bar', 999);
 ?>
