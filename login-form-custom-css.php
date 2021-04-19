@@ -2,7 +2,8 @@
 /**
 * Plugin Name: Add custom CSS to login form
 * Plugin URI: https://github.com/TaylorJadin/tiny-wordpress-plugins
-* Description: This plugin adds custom CSS to the login form
+* Description: This plugin adds custom CSS to the login form.
+* Right now I use this to hide everything but the Google button in combination with the Nextend Social login plugin
 * Version: 1.0
 * Author: Taylor Jadin
 * Author URI: https://jadin.me/
