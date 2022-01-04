@@ -16,7 +16,7 @@ wp_add_dashboard_widget('custom_help_widget', 'custom_dashboard_title', 'custom_
 }
 
 function custom_dashboard_title() {
-  echo 'Getting Started'
+  echo 'Getting Started';
 }
 
 function custom_dashboard_text() {
