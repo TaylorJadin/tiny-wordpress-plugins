@@ -2,7 +2,7 @@
 /**
 * Plugin Name: Dashboard Widget
 * Plugin URI: https://github.com/TaylorJadin/tiny-wordpress-plugins
-* Description: This plugin adds a simple text widget to the dashboard. Based on: https://www.wpbeginner.com/wp-themes/how-to-add-custom-dashboard-widgets-in-wordpress/
+* Description: This plugin adds a simple text widget to the dashboard.
 * Version: 1.0
 * Author: Taylor Jadin
 * Author URI: https://jadin.me/
