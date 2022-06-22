@@ -2,7 +2,7 @@
 /**
 * Plugin Name: Remove items from the admin bar
 * Plugin URI: https://github.com/TaylorJadin/tiny-wordpress-plugins
-* Description: This plugin removes things from the admin bar in wordpress. Based on: https://jasonyingling.me/removing-items-from-the-wordpress-admin-bar/
+* Description: This plugin removes things from the admin bar in wordpress.
 * Version: 1.0
 * Author: Taylor Jadin
 * Author URI: https://jadin.me/
