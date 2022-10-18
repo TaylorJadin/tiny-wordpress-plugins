@@ -23,7 +23,7 @@ function is_valid_email_domain($login, $email, $errors ){
  // Return error message for invalid domains
  if( $valid === false ){
 
-$errors->add('domain_whitelist_error',__( '<strong>ERROR</strong>: Registration is only allowed from @snc.edu email accounts.' ));
+$errors->add('domain_whitelist_error',__( '<strong>ERROR</strong>: Registration is only allowed from @reclaimhosting.com email accounts.' ));
  }
 }
 add_action('register_post', 'is_valid_email_domain',10,3 );
