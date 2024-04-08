@@ -1,7 +1,7 @@
 <?php
 /*
 * Plugin Name: Logged In and Logged Out Menu
-* Description: Site specific code changes for knight.domains that allow us to have a different menu depending on wether you are logged in or out
+* Description: Have a different menu depending on wether you are logged in or out. Name the menus "logged-in" or "logged-out" respectively.
 * Version: 1.0
 * Author: Taylor Jadin
 * Author URI: https://jadin.me/
