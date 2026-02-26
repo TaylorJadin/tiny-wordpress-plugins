@@ -5,7 +5,6 @@
  * Description: Sends a webhook whenever a new blog post is published. Set WEBHOOK_URL in wp-config.php.
  * Version: 1.0
  * Author: Taylor Jadin
- * License: GPL2
  */
 
 // This was designed for use with Discord, but should work with other stuff too.
