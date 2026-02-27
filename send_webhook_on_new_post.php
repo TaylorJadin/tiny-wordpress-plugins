@@ -20,14 +20,20 @@ add_action("transition_post_status", "simple_webhook_on_publish", 10, 3);
 
 function simple_webhook_on_publish($new_status, $old_status, $post)
 {
-    // Check if the post is NEWLY published, and is a standard 'post'
+    // Get GMT timestamp to avoid timzone stuff
+    $published_ts = get_post_time('U', true, $post);   // post publish time
+    $now_ts       = current_time('timestamp', true);   // current WP time (GMT)
+
+    // Return unless newly published standard post, and not older than 24h
     if (
         $new_status !== "publish" ||
         $old_status === "publish" ||
-        $post->post_type !== "post"
+        $post->post_type !== "post" ||
+        ($now_ts - $published_ts) > DAY_IN_SECONDS
     ) {
         return;
     }
+   
 
     // Get the Webhook URL from wp-config.php constant
     if (!defined("WEBHOOK_URL")) {
