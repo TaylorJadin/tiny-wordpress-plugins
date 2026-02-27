@@ -3,7 +3,7 @@
  * Plugin Name: Send Webhook on New Post
  * Plugin URI: https://github.com/taylorjadin/tiny-wordpress-plugins
  * Description: Sends a webhook whenever a new blog post is published. Set WEBHOOK_URL in wp-config.php.
- * Version: 1.0
+ * Version: 1.1
  * Author: Taylor Jadin
  */
 
